@@ -1,0 +1,16 @@
+.grafic_cont {
+    width: 42%; 
+    display: inline-block;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .grafic_cont {
+        width: 90%; 
+        max-width: 100%;
+    }
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="atlogo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="atlogo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATCloud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_dash.css">
+    <link rel="icon" href="img/atlogo.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@2.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <img src="img/Logohead.png" alt="Imagem de cabeçalho" class="logo">
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="membros.html">Sobre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <center>
+
+        <div class="grafic_cont">
+            <canvas id="altitudeChart"></canvas>
+        </div>
+        <div class="grafic_cont">
+            <canvas id="pressureChart"></canvas>
+        </div>
+        <div class="grafic_cont">
+            <canvas id="temperatureChart"></canvas>
+        </div>
+        <div class="grafic_cont">
+            <canvas id="humidityChart"></canvas>
+        </div>
+        <div class="grafic_cont">
+            <canvas id="windSpeedChart"></canvas>
+        </div>
+    </center>
+        
+    <script type="module" src="dashboard.js"></script>
+
+</body>
+
+<footer>
+    <div class="container">
+        <p>Entre em contato: <a href="mailto:at_cloud2023@outlook.com">at_cloud2023@outlook.com</a></p>
+    </div>
+</footer>
+
+</html>
