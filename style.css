@@ -129,8 +129,20 @@ footer a:hover {
     }
 }
 
-@media (max-width: 768px) {
-    .imagem {
-        margin-left: 10px; 
-    }
+@media (max-width: 446px) {
+    .logo{
+    float: left;
+    width: 17%;
+    margin-left: 1em;
+}
+.titulo_inicial{
+    width: 70%;
+    margin: 0px;
+}
+.cont {
+    
+    width: 80%;
+    margin-bottom: 2em;
+  
+}
 }
