@@ -45,8 +45,4 @@ margin-bottom: 3em;
     height: 1px;
     background-color: black;
 }
-@media (max-width: 446px) {
-    footer{
-      height: 25em;
-    }
-  }
+
