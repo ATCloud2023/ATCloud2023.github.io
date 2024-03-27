@@ -151,4 +151,7 @@ footer a:hover {
     .imgf{
     display: none;
 }
+    footer{
+        height: 25em;
+    }
 }
