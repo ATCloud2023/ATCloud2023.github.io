@@ -91,9 +91,10 @@ margin-bottom: 3em;
     .linha{
         display: none;
     }
-}
-.info_cel{
-    display: block;
+
+    .info_cel{
+        display: block;
+    }
 }
 
 @media (max-width: 446px) {
