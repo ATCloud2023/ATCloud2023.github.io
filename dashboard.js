@@ -42,9 +42,8 @@ const altitudeChart = new Chart(document.getElementById('altitudeChart').getCont
 
       alt: {
         position: 'left',
-        beginAtZero: true,
-        min: 0,
-        max: 8848
+        beginAtZero: true
+    
       }
     }
   }
@@ -72,9 +71,7 @@ const pressureChart = new Chart(document.getElementById('pressureChart').getCont
 
       press:{
         position: 'left',
-        beginAtZero: true,
-        min: 0,
-        max:1013
+        beginAtZero: true
       }
 
     }
@@ -103,9 +100,7 @@ const temperatureChart = new Chart(document.getElementById('temperatureChart').g
 
       temp:{
         position: 'left',
-        beginAtZero: true,
-        min: 0,
-        max:50
+        beginAtZero: true
       }
 
     }
@@ -151,9 +146,7 @@ const windSpeedChart = new Chart(document.getElementById('windSpeedChart').getCo
     scale:{
       vent:{
         position: 'left',
-        beginAtZero: true,
-        min: 0,
-        max:50
+        beginAtZero: true
         
       }
     }
